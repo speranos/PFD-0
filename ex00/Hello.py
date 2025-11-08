@@ -13,3 +13,9 @@ print(ft_list)
 print(ft_tuple)
 print(ft_set)
 print(ft_dict)
+
+
+# Need order + mutability? → List
+# Need order + immutability? → Tuple
+# Need unique items only? → Set
+# Need key-value mapping? → Dictionary
