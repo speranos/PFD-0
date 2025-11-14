@@ -15,12 +15,8 @@ def ft_filter(function, iterable):
     if function is None:
         function = bool
 
-    for item in iterable:
-        try:
-            if function(item):
-                yield item
-        except Exception as e:
-            raise e
+    return (item for item in iterable if function(item))
+
 
 
 def main():
