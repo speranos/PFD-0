@@ -1,4 +1,6 @@
 import sys
+
+
 def main():
     user_input = None
     if len(sys.argv) == 1:
@@ -37,6 +39,7 @@ def main():
     print(symbol, "punctuation marks")
     print(space, "spaces")
     print(digit, "digits")
+
 
 if __name__ == "__main__":
     main()
